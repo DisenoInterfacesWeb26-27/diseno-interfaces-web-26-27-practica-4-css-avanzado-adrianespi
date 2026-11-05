@@ -725,3 +725,22 @@ footer iframe {
         padding: 1.5em 1em;
     }
 }
+
+/* Borde rojo para imágenes sin atributo alt */
+img:not([alt]) {
+    border: 3px solid red;
+}
+
+/* Icono de PDF detrás de los enlaces que apunten a un archivo PDF */
+a[href$=".pdf"]::after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 0.35em;
+    vertical-align: middle;
+    background-image: url("../images/icons/pdf.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
