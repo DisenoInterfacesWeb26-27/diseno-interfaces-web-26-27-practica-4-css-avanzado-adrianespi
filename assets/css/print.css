@@ -1,0 +1,17 @@
+/* ==========================================================================
+   Actividad 4.2.1 - Estilos de impresión
+   ========================================================================== */
+
+/* No se imprimen la cabecera, el pie, el menú ni el contenido adicional */
+header,
+footer,
+nav,
+aside {
+    display: none;
+}
+
+/* El contenido principal ocupa todo el ancho del papel */
+main {
+    display: block;
+    padding: 0;
+}
