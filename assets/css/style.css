@@ -744,3 +744,11 @@ a[href$=".pdf"]::after {
     background-position: center;
     background-size: contain;
 }
+
+/* Transiciones */
+nav ul li a,
+form button {
+    transition: background-color 1.5s ease,
+                color 1.5s ease,
+                border-color 1.5s ease;
+}
