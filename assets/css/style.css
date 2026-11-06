@@ -752,3 +752,14 @@ form button {
                 color 1.5s ease,
                 border-color 1.5s ease;
 }
+
+/* Transformaciones */
+footer a[href*="wa.me"] {
+    transition: transform 0.3s ease,
+                box-shadow 0.3s ease;
+}
+
+footer a[href*="wa.me"]:hover {
+    transform: scale(1.12) rotate(-8deg);
+    box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.35);
+}
