@@ -787,3 +787,8 @@ footer a[href*="wa.me"]:hover {
     text-align: center;
     border-radius: 0.5em;
 }
+
+aside ul,
+aside ul li {
+    list-style-type: none;
+}
