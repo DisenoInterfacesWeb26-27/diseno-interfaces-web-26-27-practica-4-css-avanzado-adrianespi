@@ -763,3 +763,27 @@ footer a[href*="wa.me"]:hover {
     transform: scale(1.12) rotate(-8deg);
     box-shadow: 0 0.4em 0.8em rgba(0, 0, 0, 0.35);
 }
+
+/* Flexbox */
+#flex {
+    scroll-margin-top: 5em;
+}
+
+.contenedor-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.elemento-flex {
+    flex: 1 1 160px;
+    max-width: 220px;
+    padding: 1.5em 1em;
+    background-color: #147D78;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 0.5em;
+}
