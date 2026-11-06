@@ -114,7 +114,7 @@ nav {
     color: #FFFFFF;
     text-align: left;
     line-height: 1.5;
-    /* Actividad 4.6.1 - Sombra inferior del menú */
+    /* Actividad 4.6.1 - Sombras: sombra inferior del menú */
     box-shadow: 0 0.35em 0.9em rgba(0, 0, 0, 0.45);
 }
 
@@ -726,12 +726,12 @@ footer iframe {
     }
 }
 
-/* Borde rojo para imágenes sin atributo alt */
+/* Actividad 4.7.1 - Selector de atributos: borde rojo en imágenes sin alt */
 img:not([alt]) {
     border: 3px solid red;
 }
 
-/* Icono de PDF detrás de los enlaces que apunten a un archivo PDF */
+/* Actividad 4.7.1 - Selector de atributos y ::after: icono de PDF en enlaces */
 a[href$=".pdf"]::after {
     content: "";
     display: inline-block;
@@ -745,7 +745,7 @@ a[href$=".pdf"]::after {
     background-size: contain;
 }
 
-/* Transiciones */
+/* Actividad 5.3.1 - Transiciones: menú de navegación y botón Enviar */
 nav ul li a,
 form button {
     transition: background-color 1.5s ease,
@@ -753,7 +753,7 @@ form button {
                 border-color 1.5s ease;
 }
 
-/* Transformaciones */
+/* Actividad 5.4.1 - Transformaciones: icono de WhatsApp al pasar el ratón */
 footer a[href*="wa.me"] {
     transition: transform 0.3s ease,
                 box-shadow 0.3s ease;
